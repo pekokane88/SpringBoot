@@ -2,7 +2,6 @@ package com.example.FirstProject.dto;
 
 import com.example.FirstProject.entity.Article;
 import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 @AllArgsConstructor
