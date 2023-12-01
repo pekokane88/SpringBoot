@@ -27,6 +27,17 @@ public class MemberController {
         return "members/index";
     }
 
+    @GetMapping("/members/{id}/edit")
+    public String edit(@PathVariable Long id, Model model){
+        //1. get id and find data in DB
+        Member targetMember = memberRepository.findById(id).orElse(null);
+        //2.if find add model
+        if (targetMember != null){
+            model.addAttribute("member", targetMember);
+        }
+        return "/members/edit";
+    }
+
     @GetMapping("/signup")
     public String newMembersForm() {return "/members/new";}
 
@@ -40,6 +51,18 @@ public class MemberController {
         log.info(saved.toString());
 
         return "redirect:/members/" + saved.getId();
+    }
+
+    @PostMapping("/update")
+    public String update(MemberForm form){
+        //1. Get data and change entity
+        Member memberEntity = form.toEntity();
+        log.info(memberEntity.toString());
+        //2. Update That Entiy
+        Member newMember = memberRepository.save(memberEntity);
+        log.info(newMember.toString());
+        //3. Redirect to detail page
+        return "redirect:/members/" + newMember.getId();
     }
 
     @GetMapping("members/{id}")

@@ -32,6 +32,16 @@ public class ArticleController {
         return "articles/index";
     }
 
+    @GetMapping("/articles/{id}/edit")
+    public String edit(@PathVariable Long id,Model model){
+        //수정할 데이터 찾기.
+        Article articleEntity = articleRepository.findById(id).orElse(null);
+        //Model에 데이터 등록하기
+        model.addAttribute("article", articleEntity);
+
+        return "articles/edit";
+    }
+
     @GetMapping("/articles/new")
     public String newArticleForm(){
         return "articles/new";
@@ -46,6 +56,21 @@ public class ArticleController {
         Article saved = articleRepository.save(article);
         log.info(saved.toString());
         return "redirect:/articles/" + saved.getId();
+    }
+
+    @PostMapping("/articles/update")
+    public String update(ArticleForm form){
+
+        //1. DTO to Entity
+        Article articleEntity = form.toEntity();
+        log.info(form.toString());
+        //2.Entity to DB
+        Article target = articleRepository.findById(articleEntity.getId()).orElse(null);
+        //3.redirect page
+        if(target != null){
+            articleRepository.save(articleEntity);
+        }
+        return "redirect:/articles/" + articleEntity.getId();
     }
 
     @GetMapping("/articles/{id}")
