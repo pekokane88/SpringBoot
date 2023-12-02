@@ -47,6 +47,7 @@ public class MemberController {
         if (targetEntity != null){
            memberRepository.delete(targetEntity);
            log.info("DB delete");
+           rttr.addFlashAttribute("msg", "삭제되었습니다");
         }
         //3. redirect the page.
         return "redirect:/members";

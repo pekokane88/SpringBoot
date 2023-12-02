@@ -14,6 +14,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import java.util.Optional;
 
 @Slf4j
@@ -47,7 +48,7 @@ public class ArticleController {
     public String delete(@PathVariable Long id, RedirectAttributes rttr){
         //1. 삭제할 대상 가져오기
         Article targetEntity = articleRepository.findById(id).orElse(null);
-        log.info(targetEntity.toString());
+        log.info(Objects.requireNonNull(targetEntity).toString());
         //2. 해당 entity 삭제하기
         if (targetEntity != null){
             articleRepository.delete(targetEntity);
