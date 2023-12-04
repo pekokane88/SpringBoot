@@ -47,8 +47,8 @@ public class ArticleApiController {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(null);
         }
         //4. Update!
-        newArticle.patch(originalEntity);
-        Article updated = articleRepository.save(newArticle);
+        originalEntity.patch(newArticle);
+        Article updated = articleRepository.save(originalEntity);
         return ResponseEntity.status(HttpStatus.OK).body(updated);
     }
     //DELETE
