@@ -29,6 +29,5 @@ public class Article {
         if(article.content != null){
             this.content = article.content;
         }
-        return;
     }
 }
