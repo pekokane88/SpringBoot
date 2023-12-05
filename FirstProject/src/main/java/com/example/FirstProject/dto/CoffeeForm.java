@@ -8,8 +8,8 @@ import lombok.ToString;
 @ToString
 public class CoffeeForm {
     private Long id;
-    private String coffee;
+    private String name;
     private String price;
 
-    public Coffee toEntity() { return new Coffee(id, coffee, price); }
+    public Coffee toEntity() { return new Coffee(id, name, price); }
 }
