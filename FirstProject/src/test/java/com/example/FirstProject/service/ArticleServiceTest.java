@@ -58,8 +58,8 @@ class ArticleServiceTest {
     @Transactional
     void create_success() {
         // 1. 예상 데이터
-        String title = "라라라";
-        String content = "4444";
+        String title = "호와왕";
+        String content = "호와와왕";
         ArticleForm dto = new ArticleForm(null, title, content);
         Article expected = new Article(4L, title, content);
         //2. 실제 데이터
