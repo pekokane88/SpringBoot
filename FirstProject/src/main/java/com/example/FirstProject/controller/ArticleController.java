@@ -1,8 +1,10 @@
 package com.example.FirstProject.controller;
 
 import com.example.FirstProject.dto.ArticleForm;
+import com.example.FirstProject.dto.CommentDto;
 import com.example.FirstProject.entity.Article;
 import com.example.FirstProject.repository.ArticleRepository;
+import com.example.FirstProject.service.CommentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -23,6 +25,8 @@ public class ArticleController {
 
     @Autowired
     private ArticleRepository articleRepository;
+    @Autowired
+    private CommentService commentService;
 
     @GetMapping("/articles")
     public String index(Model model){
@@ -95,8 +99,10 @@ public class ArticleController {
         log.info("id = " + id);
         // 1. id를 조회해 데이터 가져오기 - 찾아서 없으면 변수에 null 대입.
         Article articleEntity = articleRepository.findById(id).orElse(null);
+        List<CommentDto> commentsDtos = commentService.comments(id);
         // 2. 모델에 데이터 등록하기
         model.addAttribute("article", articleEntity);
+        model.addAttribute("commentDtos", commentsDtos);
         // 3. 뷰 페이지 반환하기
         return "articles/show";
     }
