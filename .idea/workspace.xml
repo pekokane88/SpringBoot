@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="195534c3-b866-4246-bb78-e67940a16086" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FirstProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/FirstProject.FirstProject.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/java/com/example/FirstProject/FirstProjectApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/java/com/example/FirstProject/api/ArticleApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/java/com/example/FirstProject/api/CoffeeApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/java/com/example/FirstProject/api/CommentApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/java/com/example/FirstProject/api/FirstApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/java/com/example/FirstProject/api/PizzaApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/java/com/example/FirstProject/controller/ArticleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/java/com/example/FirstProject/controller/FirstController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/java/com/example/FirstProject/controller/GroupController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/java/com/example/FirstProject/controller/MemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/java/com/example/FirstProject/controller/SecondController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/java/com/example/FirstProject/dto/ArticleForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/java/com/example/FirstProject/dto/CoffeeForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/java/com/example/FirstProject/dto/CommentDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/java/com/example/FirstProject/dto/MemberForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/java/com/example/FirstProject/dto/PizzaDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/java/com/example/FirstProject/entity/Article.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/java/com/example/FirstProject/entity/Coffee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/java/com/example/FirstProject/entity/Comment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/java/com/example/FirstProject/entity/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/java/com/example/FirstProject/entity/Pizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/java/com/example/FirstProject/repository/ArticleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/java/com/example/FirstProject/repository/CoffeeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/java/com/example/FirstProject/repository/CommentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/java/com/example/FirstProject/repository/MemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/java/com/example/FirstProject/repository/PizzaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/java/com/example/FirstProject/service/ArticleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/java/com/example/FirstProject/service/CoffeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/java/com/example/FirstProject/service/CommentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/java/com/example/FirstProject/service/PizzaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/resources/META-INF/orm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/resources/static/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/resources/templates/articles/edit.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/resources/templates/articles/index.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/resources/templates/articles/new.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/resources/templates/articles/show.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/resources/templates/comments/_comments.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/resources/templates/comments/_list.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/resources/templates/comments/_new.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/resources/templates/goodbye.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/resources/templates/greetings.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/resources/templates/groups/show.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/resources/templates/layouts/footer.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/resources/templates/layouts/header.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/resources/templates/members/edit.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/resources/templates/members/index.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/resources/templates/members/new.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/resources/templates/members/show.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/main/resources/templates/quote.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/test/java/com/example/FirstProject/FirstProjectApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/test/java/com/example/FirstProject/repository/CommentRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject/src/test/java/com/example/FirstProject/service/ArticleServiceTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2aJKS4exmW9pLA4noWRNx2MsPSk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Source/IntelliJ repos/SpringBoot",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="195534c3-b866-4246-bb78-e67940a16086" name="변경" comment="" />
+      <created>1704031239027</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704031239027</updated>
+      <workItem from="1704031241312" duration="49000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

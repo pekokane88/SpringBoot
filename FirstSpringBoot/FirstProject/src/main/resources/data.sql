@@ -1,0 +1,18 @@
+INSERT INTO article(title, content) values ('아와왕', '아와와왕');
+INSERT INTO article(title, content) values ('하와왕', '하와와왕');
+INSERT INTO article(title, content) values ('노와왕', '노와와왕');
+INSERT INTO article(title, content) values ('당신의 인생 영화는?', '댓글 고');
+INSERT INTO article(title, content) values ('당신의 소울 푸드는?', '댓글 고고');
+INSERT INTO article(title, content) values ('당신의 취미는?', '댓글 고고고');
+INSERT INTO comment(article_id, nickname, body) values(4, 'park', '다크나이트');
+INSERT INTO comment(article_id, nickname, body) values(4, 'lee', '인셉션');
+INSERT INTO comment(article_id, nickname, body) values(4, 'choi', '쇼생크 탈추루');
+INSERT INTO comment(article_id, nickname, body) values(5, 'park', '치킨');
+INSERT INTO comment(article_id, nickname, body) values(5, 'lee', '샤부샤부');
+INSERT INTO comment(article_id, nickname, body) values(5, 'choi', '초밥');
+INSERT INTO comment(article_id, nickname, body) values(6, 'park', '조깅');
+INSERT INTO comment(article_id, nickname, body) values(6, 'lee', '유투부');
+INSERT INTO comment(article_id, nickname, body) values(6, 'choi', '독서');
+INSERT INTO coffee(name, price) values ('아메리카노', '4500');
+INSERT INTO coffee(name, price) values ('라떼', '5000');
+INSERT INTO coffee(name, price) values ('카페 모카', '5500');
